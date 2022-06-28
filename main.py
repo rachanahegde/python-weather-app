@@ -2,11 +2,14 @@ import datetime
 import requests
 import string
 from flask import Flask, render_template, request, redirect, url_for
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
 OWM_FORECAST_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 GEOCODING_API_ENDPOINT = "http://api.openweathermap.org/geo/1.0/direct"
-api_key = ""
+api_key = os.getenv("OWM_API_KEY")
 
 app = Flask(__name__)
 

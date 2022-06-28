@@ -10,7 +10,7 @@ decorator==5.1.0
 defusedxml==0.7.1
 entrypoints==0.3
 fastjsonschema==2.15.3
-Flask==2.0.2
+Flask~=2.1.2
 ipykernel==6.5.0
 ipython==7.29.0
 ipython-genutils==0.2.0
@@ -52,3 +52,6 @@ traitlets==5.1.1
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==2.0.2
+
+requests~=2.28.0
+python-dotenv~=0.20.0
