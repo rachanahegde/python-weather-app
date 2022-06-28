@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+        <title> Weather App </title>
+    </head>
+    <body>
+        <main> 
+            <div class="container">
+                <div class="main-header">
+                    <h1> Weather </h1>
+                </div>
+                <div class="background">
+                    <img src="/static/assets/weather-home-background.jpg" alt="" class="desktop-background">
+                </div>
+                <div class="search-bar"> 
+                    <img class="search-icon" src="/static/assets/search.png" alt="">
+                    <form class="search" action="" autocomplete="off" method="post">
+                        <input type="text" name="search" id="search" tabindex="1" placeholder="Search for a city">
+                    </form>
+                </div>
+                <div class="footer">
+                    <a href="https://rachanahegde.squarespace.com/"> © Rachana Hegde </a>  
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

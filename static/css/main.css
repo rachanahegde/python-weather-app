@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styles */
+
+body {
+    background-color: #9DACDB;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+	text-align: center;
+	color: black;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+a {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+    color: white;
+	text-decoration: none;
+}
+
+img {
+	width: 100vw;
+    height: 100vh;
+}
+
+.container {
+	display: grid;
+	height: 100vh;
+}
+
+/* Background */
+
+.background {
+	grid-row: 1 / -1;
+	grid-column: 1 / -1;
+	z-index: 1;
+}
+
+.background img {
+	opacity: 0.8;
+}
+
+/* Home Page */
+
+.main-header {
+    grid-row: 1 / -1;
+	grid-column: 1 / -1;
+    z-index: 2;
+}
+
+.main-header h1 {
+	font-size: 80px;
+	padding-top: 12%;
+    line-height: 115px;
+}
+
+.search-bar {
+    grid-row: 1 / -1;
+	grid-column: 1 / -1;
+  	z-index: 2;
+	width: 400px;
+	height: 30px;
+	background: white;
+	position: relative;
+    display: flex;
+	justify-self: center;
+	align-self: center;
+	border-radius: 5px;
+} 
+
+.search-bar:hover {
+	box-shadow: 0px 1px 5px #d9d9d9;
+}
+
+.search-icon {
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	width: 20px;
+	height: 20px;
+}
+
+#search {
+	width: 83%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	left: 35px;
+	top: 3px;
+	border: none;
+	outline: none;
+}
+
+/* City Page Text */
+
+.city-header {
+	padding-top: 4%;
+}
+
+.city-header h1 {
+	font-size: 60px;
+	padding-bottom: 2.5%;
+}
+
+/* City Page Button */
+
+.change-button {
+    z-index: 2;
+	height: 28px;
+	width: 200px;
+	border-radius: 15px;
+	background: white;
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+
+.change-button:hover {
+	box-shadow: 0px 1px 5px #d9d9d9;
+}
+
+.chevron-icon {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+}
+
+.change-button a {
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0.21em;
+	text-transform: uppercase;
+	position: absolute;
+	top: 5px;
+	left: 25px;
+}
+
+/* Daily Forecast Section  */
+.daily-forecast {
+	margin-bottom: 3%;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+}
+
+#current-temp {
+	font-size: 80px;
+	grid-column: 1 / 2;
+	justify-self: right;
+	padding-right: 10%;
+	position: relative;
+	top: 90%;
+}
+
+.daily-section {
+	grid-column: 2 / 2;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	justify-content: left;
+}
+
+.weather-icon {
+	width: 50px;
+	height: 50px;
+	align-self: center;
+	padding-top: 10px;
+}
+
+.forecast-text {
+	padding-left: 25px;
+	align-self: center;
+}
+
+/* Five Day Forecast Section */
+
+.divider {
+	border-top: 1px solid black;
+	width: 70%;
+	justify-self: center;
+}
+
+.five-day {
+	display: grid;
+	grid-template-columns: repeat(5, 160px);
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+.forecast-item {
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	justify-items: center;
+	align-items: center;
+}
+
+/* Error Page */
+#error-text {
+    grid-row: 1 / -1;
+	grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+    z-index: 2;
+    color: white;
+    font-size: 50px;
+}
+
+#error-background {
+    opacity: 1.0;
+}
+
+/* Footer */
+.footer {
+	grid-row: 1 / -1;
+	grid-column: 1 / -1;
+	z-index: 2;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Media Queries for Home Page */
+@media (max-width: 400px) {
+	.main-header h1 {
+	  font-size: 65px;
+	  position: relative;
+	  top: 90px;
+	}
+
+	.search-bar {
+		width: 300px;
+	}
+
+	.footer {
+		right: 38%;
+	}
+}
+
+/* Media Queries for City Page */
+@media (max-width: 800px) {
+	.city-header {
+		padding-top: 10%;
+	}
+	.five-day {
+		grid-template-columns: repeat(5, 1fr);
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 550px) {
+	.city-header {
+		padding-top: 20%;
+	}
+
+	.city-header h1 {
+		font-size: 50px;
+		padding-bottom: 5%;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	#current-temp {
+		font-size: 50px;
+		position: relative;
+		top: 90%;
+	}
+}
+
+@media (max-width: 400px) {
+	.city-header {
+		padding-top: 23%;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	#current-temp {
+		font-size: 43px;
+		padding-right: 0%;
+	}
+
+	.weather-icon {
+		width: 45px;
+		height: 45px;
+	}
+
+	.five-day {
+		padding-bottom: 9%;
+	}
+
+	#error-text {
+	    font-size: 40px;
+	}
+
+	.footer {
+		left: 0;
+	}
+}
