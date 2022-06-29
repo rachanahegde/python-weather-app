@@ -11,6 +11,7 @@ This weather web app built with Flask and OpenWeather API displays the weather f
 -  Write the HTML for the home page and 'city' page that displays the weather forecast for a specific city. Then, style these pages to match the UI design. Make sure design is responsive.
 – Set up flask server
 To deploy this web app, I also learned about git and version control through Angela Yu's Python bootcamp on Udemy. I also had to learn about storing API keys as environment variables with .env and the purpose of .gitignore.
+Even after deploying the app, I discovered that the web page didn't render as expected or desired on my iPhone 11 Pro. This was an issue with the responsive design so I had to address this again.  
 
 ## Reflection
 This is one of the first apps I'm building from scratch in Python and therefore, it was difficult for me to add all the functionality I wanted to in a way that would ensure the UI/UX design remained seamless. If I were to do this project again, I would add an option for users to specify the country of the city they enter (if multiple countries share the same city name). I would also display the low and high temperatures for each day in the five day forecast instead of only displaying the temperature at noon. It would also be useful to enable location detection to allow the user to get more accurate weather data for their current location by using their precise coordinates instead of relying on the geocoding API provided by OpenWeather.
