@@ -10,6 +10,7 @@ OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
 OWM_FORECAST_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 GEOCODING_API_ENDPOINT = "http://api.openweathermap.org/geo/1.0/direct"
 api_key = os.getenv("OWM_API_KEY")
+# api_key = os.environ.get("OWM_API_KEY")
 
 app = Flask(__name__)
 
