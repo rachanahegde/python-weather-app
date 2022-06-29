@@ -23,6 +23,7 @@ This is one of the first apps I'm building from scratch in Python and therefore,
 - [Article on retrieving HTML form data with Flask](https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/)
 - [StackOverflow post on building Flask app search bar](https://stackoverflow.com/questions/39960942/flask-app-search-bar)
 - [Article on storing API keys as environment variables](https://jonathansoma.com/lede/foundations-2019/classes/apis/keeping-api-keys-secret/)
+– [StackOverflow post on storing API keys in Heroku](https://stackoverflow.com/questions/71593743/storing-api-key-in-heroku)
 
 ## Image Credit
 - Home page background image: https://unsplash.com/photos/2KXEb_8G5vo
