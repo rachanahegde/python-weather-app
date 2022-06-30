@@ -294,12 +294,14 @@ img {
 }
 
 /* Media Queries for Home Page */
+/* Laptop and iPad */
 @media (min-width: 1000px) {
     #search {
         top: 3px;
     }
 }
 
+/* iPhone */
 @media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
@@ -313,53 +315,17 @@ img {
 
 	#search {
 	    width: 75%;
-	    height: 25px;
+	    height: 20px;
 	}
 }
 
 /* Media Queries for City Page */
-/* @media (max-width: 800px) {
-	.city-header {
-		padding-top: 10%;
-	}
-	.five-day {
-		grid-template-columns: repeat(5, 1fr);
-		margin-bottom: 5%;
-	}
-}
-
-@media (max-width: 550px) {
-	.city-header {
-		padding-top: 20%;
-	}
-
-	.city-header h1 {
-		font-size: 50px;
-		padding-bottom: 5%;
-	}
-
-	h2 {
-		font-size: 30px;
-	}
-
-	#current-temp {
-		font-size: 50px;
-		position: relative;
-		top: 90%;
-	}
-} */
 
 /* iPad */
 @media (max-width: 1050px) {
 	.city-header {
 		padding-top: 10%;
-	}
-
-	.divider {
-	    padding: 0;
-	}
-	.five-day {
-		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 }
 
