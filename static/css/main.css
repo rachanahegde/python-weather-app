@@ -318,16 +318,8 @@ img {
 }
 
 /* Media Queries for City Page */
-/* @media (max-width: 800px) {
-	.city-header {
-		padding-top: 10%;
-	}
-	.five-day {
-		grid-template-columns: repeat(5, 1fr);
-		margin-bottom: 5%;
-	}
-}
 
+/*
 @media (max-width: 550px) {
 	.city-header {
 		padding-top: 20%;
@@ -353,11 +345,8 @@ img {
 @media (max-width: 1050px) {
 	.city-header {
 		padding-top: 10%;
-	}
+		padding-bottom: 0;
 
-	.divider {
-	    padding: 0;
-	    margin: 0;
 	}
 
 	.five-day {
