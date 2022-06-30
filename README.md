@@ -19,6 +19,8 @@ For instance, I had difficulty positioning my footer at the bottom of my page an
 ## Reflection
 This is one of the first apps I'm building from scratch in Python and therefore, it was difficult for me to add all the functionality I wanted to in a way that would ensure the UI/UX design remained seamless. If I were to do this project again, I would add an option for users to specify the country of the city they enter (if multiple countries share the same city name). I would also display the low and high temperatures for each day in the five day forecast instead of only displaying the temperature at noon. It would also be useful to enable location detection to allow the user to get more accurate weather data for their current location by using their precise coordinates instead of relying on the geocoding API provided by OpenWeather.
 
+I would also love to rework the CSS - there's far too much space between <div> elements when the page is rendered on an iPad. Ideally, I would spend many more hours fixing this project but I already poured countless hours into making it as responsive as possible for mobile so it wasn't realistic/time efficient for me at this point. 
+
 ## Useful Resources
 - [OpenWeather API Documentation](https://openweathermap.org/api/one-call-3)
 - [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -29,7 +31,7 @@ This is one of the first apps I'm building from scratch in Python and therefore,
 - [StackOverflow post on building Flask app search bar](https://stackoverflow.com/questions/39960942/flask-app-search-bar)
 - [Article on storing API keys as environment variables](https://jonathansoma.com/lede/foundations-2019/classes/apis/keeping-api-keys-secret/)
 – [StackOverflow post on storing API keys in Heroku](https://stackoverflow.com/questions/71593743/storing-api-key-in-heroku)
-- []
+- [Making a footer stay at the bottom of the page both in mobile view and desktop view](https://stackoverflow.com/questions/51683107/making-a-footer-stay-at-the-bottom-of-the-page-both-in-mobile-view-and-desktop-v)
 
 ## Image Credit
 - Home page background image: https://unsplash.com/photos/2KXEb_8G5vo
