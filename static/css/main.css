@@ -330,8 +330,9 @@ img {
 	}
 
     .daily-forecast {
+        align-self: center;
         position: absolute;
-        top: 3%;
+        bottom: 1%;
     }
 
 
