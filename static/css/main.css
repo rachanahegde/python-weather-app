@@ -299,6 +299,7 @@ img {
         top: 3px;
     }
 }
+
 @media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
@@ -348,6 +349,18 @@ img {
 	}
 } */
 
+/* iPad */
+@media (max-width: 1050px) {
+	.city-header {
+		padding-top: 10%;
+	}
+	.five-day {
+		grid-template-columns: repeat(5, 1fr);
+		margin-bottom: 5%;
+	}
+}
+
+/* iPhone */
 @media (max-width: 450px) {
 	.city-header {
 		padding-top: 23%;
