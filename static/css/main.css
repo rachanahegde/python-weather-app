@@ -153,6 +153,7 @@ img {
 #search {
 	width: 83%;
 	font-size: 20px;
+	height: 25px; /* TEST THIS */
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	position: absolute;
@@ -372,5 +373,6 @@ img {
 
 	.footer {
 		left: 0;
+		bottom: 0; /* TEST THIS */
 	}
 }
