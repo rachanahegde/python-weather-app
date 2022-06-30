@@ -294,14 +294,12 @@ img {
 }
 
 /* Media Queries for Home Page */
-/* Laptop and iPad */
 @media (min-width: 1000px) {
     #search {
         top: 3px;
     }
 }
 
-/* iPhone */
 @media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
@@ -315,17 +313,23 @@ img {
 
 	#search {
 	    width: 75%;
-	    height: 20px;
+	    height: 22px;
 	}
 }
 
 /* Media Queries for City Page */
+
 
 /* iPad */
 @media (max-width: 1050px) {
 	.city-header {
 		padding-top: 10%;
 		padding-bottom: 0;
+
+	}
+
+	.five-day {
+		margin-bottom: 0;
 	}
 }
 
