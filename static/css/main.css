@@ -294,6 +294,11 @@ img {
 }
 
 /* Media Queries for Home Page */
+@media (min-width: 1000px) {
+    #search {
+        top: 3px;
+    }
+}
 @media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
@@ -312,7 +317,7 @@ img {
 }
 
 /* Media Queries for City Page */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 	.city-header {
 		padding-top: 10%;
 	}
@@ -341,7 +346,7 @@ img {
 		position: relative;
 		top: 90%;
 	}
-}
+} */
 
 @media (max-width: 450px) {
 	.city-header {
