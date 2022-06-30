@@ -13,6 +13,9 @@ This weather web app built with Flask and OpenWeather API displays the weather f
 To deploy this web app, I also learned about git and version control through Angela Yu's Python bootcamp on Udemy. I also had to learn about storing API keys as environment variables with .env and the purpose of .gitignore.
 Even after deploying the app, I discovered that the web page didn't render as expected or desired on my iPhone 11 Pro. This was an issue with the responsive design so I had to address this again.  
 
+Honestly, this was much more frustrating and complicated than I had anticipated but I learned and grew a lot as a developer by tackling each problem.
+For instance, I had difficulty positioning my footer at the bottom of my page and had to refer to [this amazing resource](https://stackoverflow.com/questions/51683107/making-a-footer-stay-at-the-bottom-of-the-page-both-in-mobile-view-and-desktop-v) to adjust my CSS accordingly. I also discovered after deploying my app that the Chrome browser tools are not entirely accurate for the mobile view. My page wasn't rendering as beautifully on mobile so after some deliberation, I downloaded Responsively and this tool proved to be a godsend! 
+
 ## Reflection
 This is one of the first apps I'm building from scratch in Python and therefore, it was difficult for me to add all the functionality I wanted to in a way that would ensure the UI/UX design remained seamless. If I were to do this project again, I would add an option for users to specify the country of the city they enter (if multiple countries share the same city name). I would also display the low and high temperatures for each day in the five day forecast instead of only displaying the temperature at noon. It would also be useful to enable location detection to allow the user to get more accurate weather data for their current location by using their precise coordinates instead of relying on the geocoding API provided by OpenWeather.
 
@@ -26,6 +29,7 @@ This is one of the first apps I'm building from scratch in Python and therefore,
 - [StackOverflow post on building Flask app search bar](https://stackoverflow.com/questions/39960942/flask-app-search-bar)
 - [Article on storing API keys as environment variables](https://jonathansoma.com/lede/foundations-2019/classes/apis/keeping-api-keys-secret/)
 – [StackOverflow post on storing API keys in Heroku](https://stackoverflow.com/questions/71593743/storing-api-key-in-heroku)
+- []
 
 ## Image Credit
 - Home page background image: https://unsplash.com/photos/2KXEb_8G5vo
