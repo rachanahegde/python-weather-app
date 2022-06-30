@@ -294,7 +294,7 @@ img {
 }
 
 /* Media Queries for Home Page */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
 	  position: relative;
@@ -343,7 +343,7 @@ img {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	.city-header {
 		padding-top: 23%;
 	}
