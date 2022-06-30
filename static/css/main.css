@@ -354,9 +354,14 @@ img {
 	.city-header {
 		padding-top: 10%;
 	}
+
+	.divider {
+	    padding: 0;
+	    margin: 0;
+	}
+
 	.five-day {
-		grid-template-columns: repeat(5, 1fr);
-		margin-bottom: 5%;
+		margin-bottom: 0;
 	}
 }
 
