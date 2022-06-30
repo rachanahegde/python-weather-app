@@ -377,11 +377,8 @@ img {
 	    font-size: 40px;
 	}
 
-	/* .footer {
-		left: 0;
-	} */
-
 	.footer {
-
+        height: 20px;
+        background-color: #9DACDB;
 	}
 }
