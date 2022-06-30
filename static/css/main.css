@@ -293,7 +293,6 @@ img {
     position: absolute;
     bottom: 0;
 	width: 100%;
-	/* display: block; */
 }
 
 /* Media Queries for Home Page */
@@ -379,9 +378,5 @@ img {
 
 	#error-text {
 	    font-size: 40px;
-	}
-
-	.footer {
-        z-index: 1;
 	}
 }
