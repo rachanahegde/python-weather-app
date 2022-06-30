@@ -136,7 +136,6 @@ img {
 	justify-self: center;
 	align-self: center;
 	border-radius: 5px;
-	align-items: center;
 } 
 
 .search-bar:hover {
@@ -308,7 +307,7 @@ img {
 
 	#search {
 	    width: 75%;
-	    height: 12px;
+	    height: 25px;
 	}
 }
 
