@@ -310,10 +310,6 @@ img {
 	    height: 12px;
 	    font-size: 10px;
 	}
-
-	.footer {
-		right: 38%;
-	}
 }
 
 /* Media Queries for City Page */
@@ -375,7 +371,7 @@ img {
 	    font-size: 40px;
 	}
 
-	/* .footer {
+	.footer {
 		left: 0;
-	} */
+	}
 }
