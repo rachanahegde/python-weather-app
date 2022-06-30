@@ -308,7 +308,6 @@ img {
 	#search {
 	    width: 75%;
 	    height: 12px;
-	    font-size: 10px;
 	}
 }
 
@@ -354,7 +353,7 @@ img {
 	}
 
 	#current-temp {
-		font-size: 43px;
+		font-size: 38px;
 		padding-right: 0%;
 	}
 
