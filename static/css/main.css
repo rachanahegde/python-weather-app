@@ -55,6 +55,9 @@ table {
 
 body {
     background-color: #9DACDB;
+    position: relative;
+    min-height: 100%;
+    height: auto;
 }
 
 h1 {
@@ -287,9 +290,10 @@ img {
 	grid-column: 1 / -1;
 	z-index: 2;
 	text-align: center;
-	position: absolute;
-	bottom: 0;
+    position: absolute;
+    bottom: 0;
 	width: 100%;
+	/* display: block; */
 }
 
 /* Media Queries for Home Page */
