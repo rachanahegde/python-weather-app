@@ -294,12 +294,6 @@ img {
 }
 
 /* Media Queries for Home Page */
-/* Laptop and iPad */
-@media (min-width: 1000px) {
-    #search {
-        top: 3px;
-    }
-}
 
 /* iPhone */
 @media (max-width: 450px) {
@@ -334,8 +328,6 @@ img {
         position: absolute;
         bottom: 1%;
     }
-
-
 }
 
 /* iPhone */
