@@ -321,13 +321,13 @@ img {
 
 /* Media Queries for City Page */
 
-/* iPad */
+/* iPad
 @media (max-width: 1050px) {
 	.city-header {
 		padding-top: 10%;
 		padding-bottom: 0;
 	}
-}
+} */
 
 /* iPhone */
 @media (max-width: 450px) {
@@ -362,6 +362,6 @@ img {
 	}
 
 	.footer {
-		left: 0;
+	    left: 0;
 	}
 }
