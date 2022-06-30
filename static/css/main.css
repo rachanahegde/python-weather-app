@@ -313,21 +313,51 @@ img {
 
 	#search {
 	    width: 75%;
-	    height: 22px;
+	    height: 25px;
 	}
 }
 
 /* Media Queries for City Page */
+/* @media (max-width: 800px) {
+	.city-header {
+		padding-top: 10%;
+	}
+	.five-day {
+		grid-template-columns: repeat(5, 1fr);
+		margin-bottom: 5%;
+	}
+}
 
+@media (max-width: 550px) {
+	.city-header {
+		padding-top: 20%;
+	}
+
+	.city-header h1 {
+		font-size: 50px;
+		padding-bottom: 5%;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	#current-temp {
+		font-size: 50px;
+		position: relative;
+		top: 90%;
+	}
+} */
 
 /* iPad */
 @media (max-width: 1050px) {
 	.city-header {
 		padding-top: 10%;
-		padding-bottom: 0;
-
 	}
 
+	.divider {
+	    padding: 0;
+	}
 	.five-day {
 		margin-bottom: 0;
 	}
