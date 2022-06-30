@@ -157,7 +157,6 @@ img {
 	font-weight: 500;
 	position: absolute;
 	left: 35px;
-	top: 3px;
 	border: none;
 	outline: none;
 }
@@ -294,7 +293,15 @@ img {
 }
 
 /* Media Queries for Home Page */
-@media (max-width: 400px) {
+/* Laptop and iPad */
+@media (min-width: 1000px) {
+    #search {
+        top: 3px;
+    }
+}
+
+/* iPhone */
+@media (max-width: 450px) {
 	.main-header h1 {
 	  font-size: 65px;
 	  position: relative;
@@ -310,9 +317,9 @@ img {
 	    height: 20px;
 	}
 
-	.footer {
+	/*.footer {
 		right: 38%;
-	}
+	} */
 }
 
 /* Media Queries for City Page */
@@ -347,7 +354,7 @@ img {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	.city-header {
 		padding-top: 23%;
 	}
