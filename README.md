@@ -2,6 +2,7 @@
 This weather web app built with Flask and OpenWeather API displays the weather forecast for any city. I designed a simplistic UI to make it easier for the user to find the relevant information. All HTML, CSS, and Python code was written from scratch and the CSS is responsive due to the use of CSS grid, flexbox, and media queries.
 
 ## Screenshots (Desktop)
+<img src="/screenshots/weather_app_desktop_forecast_page_screenshot.png">
 
 ## Screenshots (Mobile)
 
@@ -10,6 +11,7 @@ This weather web app built with Flask and OpenWeather API displays the weather f
 -  Write the HTML for the home page and 'city' page that displays the weather forecast for a specific city. Then, style these pages to match the UI design. Make sure design is responsive.
 – Set up flask server
 To deploy this web app, I also learned about git and version control through Angela Yu's Python bootcamp on Udemy. I also had to learn about storing API keys as environment variables with .env and the purpose of .gitignore.
+Even after deploying the app, I discovered that the web page didn't render as expected or desired on my iPhone 11 Pro. This was an issue with the responsive design so I had to address this again.  
 
 ## Reflection
 This is one of the first apps I'm building from scratch in Python and therefore, it was difficult for me to add all the functionality I wanted to in a way that would ensure the UI/UX design remained seamless. If I were to do this project again, I would add an option for users to specify the country of the city they enter (if multiple countries share the same city name). I would also display the low and high temperatures for each day in the five day forecast instead of only displaying the temperature at noon. It would also be useful to enable location detection to allow the user to get more accurate weather data for their current location by using their precise coordinates instead of relying on the geocoding API provided by OpenWeather.
@@ -23,6 +25,7 @@ This is one of the first apps I'm building from scratch in Python and therefore,
 - [Article on retrieving HTML form data with Flask](https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/)
 - [StackOverflow post on building Flask app search bar](https://stackoverflow.com/questions/39960942/flask-app-search-bar)
 - [Article on storing API keys as environment variables](https://jonathansoma.com/lede/foundations-2019/classes/apis/keeping-api-keys-secret/)
+– [StackOverflow post on storing API keys in Heroku](https://stackoverflow.com/questions/71593743/storing-api-key-in-heroku)
 
 ## Image Credit
 - Home page background image: https://unsplash.com/photos/2KXEb_8G5vo
