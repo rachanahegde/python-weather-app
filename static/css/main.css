@@ -153,13 +153,12 @@ img {
 #search {
 	width: 83%;
 	font-size: 20px;
-	height: 23px; /* TEST THIS */
+	height: 20px; /* TEST THIS */
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	position: absolute;
 	left: 35px;
-	/* top: 3px; */
-	top: 0px /* TEST THIS */
+	top: 0px
 	border: none;
 	outline: none;
 }
