@@ -7,8 +7,8 @@ This weather web app built with Flask and OpenWeather API displays the weather f
 <img src="/screenshots/weather_app_desktop_error_page_screenshot.png">
 
 ## Screenshots (Mobile)
-<img src="/screenshots/weather_app_iphone_forecast_page_screenshot.png">
-<img src="/screenshots/weather_app_iphone_home_page_screenshot.png">
+<img src="/screenshots/weather_app_iphone_forecast_page_screenshot.png" style="width:500px;">
+<img src="/screenshots/weather_app_iphone_home_page_screenshot.png" style="width:500px;">
 
 ## Reflection
 Building a Python project from scratch without relying on a tutorial taught me a lot but I was also able to implement the app's key functionality (getting and displaying weather data) due to the work I did with APIs in Angela Yu's Python bootcamp. While deploying this web app, I  learned about git and version control as well as storing API keys as environment variables with .env and the purpose of .gitignore. This project turned out to be frustrating and complicated at times but I learned and grew a lot as a developer by tackling each problem. For instance, I struggled to make this website responsive because I discovered that the Chrome browser tools are not entirely accurate for the mobile view. Hence, when the app was deployed, the website didn't look the way I expected ore desired on mobile. So I switched to a free desktop application called Responsively and it provided views for multiple devices which allowed me to improve my CSS. In addition, I had difficulty positioning my footer at the bottom of my page and had to refer to [this resource](https://stackoverflow.com/questions/51683107/making-a-footer-stay-at-the-bottom-of-the-page-both-in-mobile-view-and-desktop-v) to adjust my CSS accordingly. 
